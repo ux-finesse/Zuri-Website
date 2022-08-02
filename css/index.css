@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+}
+.hero-section{
+    background-image: url('../img/hero-bg.svg');
+    background-size: cover;
+    height: 90vh;
+}
+.hero-img{
+    margin: 5rem auto;
+}
+
+.hero-contents{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.hero-caption{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.hero-caption h3{
+    font-size: 2rem;
+    color: #514949;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hero-caption p{
+    font-size: 1rem;
+    opacity: 0.9;
+    color: #514949;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 6.5rem ;
+
+}
+
+.hero-contents a{
+    color: #E7332B;
+}
+
+.hero-buttons{
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.b1{
+border: 1px solid #E7332B;
+padding: 0.68rem 1.75rem;
+background-color: #E7332B;
+font-size: 1rem;
+color: #fff;
+}
+
+.b1:hover{
+    color: #E7332B;
+    background-color: #fff;
+}
+
+.b2{
+    border: 1px solid #E7332B;
+    padding: 0.68rem 1.75rem;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #E7332B;
+}
+
+.b2:hover{
+    color: #fff;
+    background-color: #E7332B;
+}
+
+.mid-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 10rem auto 0;
+
+}
+.mid-contents{
+    display: flex;
+    margin: 0 auto;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.mid-caption{
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: column;
+}
+
+.mid-caption > p{
+    color: #E7332B;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.mid-caption > h3{
+    font-size: 1.4rem;
+    color: #514949;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.mid-boxes{
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row;
+}
+
+
+
+.box1, .box2, .box3{
+
+}
