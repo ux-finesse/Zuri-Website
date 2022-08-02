@@ -5,11 +5,13 @@
     font-family: 'Catamaran', sans-serif;
     text-decoration: none;
 }
+
 .hero-section{
     background-image: url('../img/hero-bg.svg');
     background-size: cover;
     height: 90vh;
 }
+
 .hero-img{
     margin: 5rem auto;
 }
