@@ -400,8 +400,82 @@
                     Frequently Asked Questions
                 </h1>
 
-                <div class="accodian">
-
+                <div class="accordions">
+                    <div class="accordion">
+                        <div class="parent-acc">
+                            <div class="acc-first">
+                                <p>
+                                    Would I have to pay to enroll for the training?
+                                </p>
+                                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+                            </div>
+                            <div class="childacc">
+                                <p>
+                                    No, the program is completely free thanks to Ingressive For Good
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="parent-acc">
+                            <div class="acc-first">
+                                <p>
+                                    What are the things I would need to participate?
+                                </p>
+                                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+                            </div>
+                            <div class="childacc">
+                                <p>
+                                    You'll need a laptop, internet connection and the willingness to learn through collaboration and mentorship.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="parent-acc">
+                            <div class="acc-first">
+                                <p>
+                                    What happens if i join and I’m not active?
+                                </p>
+                                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+                            </div>
+                            <div class="childacc">
+                                <p>
+                                    Participants who join the program and stop engaging will be given the chance to catch up. You'll also be assigned a 'study-mate' and mentor to help you. However, there is the possibility of not being promoted to the next stage if you remain inactive for too long
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="parent-acc">
+                            <div class="acc-first">
+                                <p>
+                                    Can I switch from the part-time track to full-time and vice versa?
+                                </p>
+                                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+                            </div>
+                            <div class="childacc">
+                                <p>
+                                    Unfortunately, no, you cannot switch from part-time to full-time and vice-versa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="parent-acc">
+                            <div class="acc-first">
+                                <p>
+                                    Will I get paid?
+                                </p>
+                                <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+                            </div>
+                            <div class="childacc">
+                                <p>
+                                    We reward some participants who complete tasks early, however, this is not a weekly reward. All the work that will be done during the program are hypothetical.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gotquestions">
@@ -635,5 +709,21 @@
                 </div>
             </div>
     </footer>
+    <script>
+        let acc = document.getElementsByClassName('acc-first');
+        let i
+    
+        for ( i = 0; i < acc.length; i++){
+            parent-acc[i].addEventListener('click', function() {
+                this.classList.toggle('active');
+                let childacc = this.nextElementSibling;
+                if (childacc.style.display === 'block'){
+                    childacc.style.display = 'none';
+                } else {
+                    childacc.style.display = 'block';
+                }
+        });
+        }
+    </script>
 </body>
 </html>

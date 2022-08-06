@@ -269,7 +269,7 @@ ul > li{
     color: #fff;
     width: 32%;
     border-radius: 1rem;
-    box-shadow: 0 11px 22px #e7332b1a;
+    box-shadow: 0 0.6875rem 1.375rem #e7332b1a;
     transition: transform .3s ease,-webkit-transform .3s ease;
 }
 
@@ -279,7 +279,7 @@ ul > li{
     color: #000;
     width: 32%;
     border-radius: 1rem;
-    box-shadow: 0 11px 22px #e7332b1a;
+    box-shadow: 0 0.6875rem 1.375rem #e7332b1a;
     transition: transform .3s ease,-webkit-transform .3s ease;
 }
 
@@ -377,7 +377,7 @@ ul > li{
     cursor: pointer;
     margin-bottom: 2rem;
     color: #e7332b;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(0, 0, 0, 0.14) 0rem 0.125rem 0.125rem 0rem, rgba(0, 0, 0, 0.12) 0rem 0.0625rem 0.3125rem 0rem;
 }
 
 .right-image img{
@@ -429,7 +429,7 @@ ul > li{
 
 .scope-capt{
     width: 55%;
-    margin-bottom: 14rem;
+    margin-bottom: 10rem;
 }
 
 .scope-img img{
@@ -464,7 +464,7 @@ ul > li{
     padding: 3rem 3rem;
     border-radius: 2.5rem;
     width: 32.2%;
-    box-shadow: 0 11px 22px rgba(231,51,43,.1);
+    box-shadow: 0 0.6875rem 1.375rem rgba(231,51,43,.1);
 }
 
 .scopes h5{
@@ -519,10 +519,6 @@ ul > li{
     color: #000;
 }
 
-.capt-line{
-    
-}
-
 .capt-line img{
     width: auto;
     position: relative;
@@ -531,11 +527,48 @@ ul > li{
     height: 7.8rem;
 }
 
-.accodian{
+.accordions{
     width: 90%;
-    height: 43rem;
-    background-color: #585757;
     margin: 8rem auto 6rem;
+}
+
+.parent-acc{
+    display: flex;
+    flex-flow: column;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    gap: 1rem;
+    border: 0.0625rem solid #472c6f6e;
+
+}
+
+.acc-first{
+    display: flex;
+}
+
+.parent-acc p{
+    font-size: 1.125rem;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+}
+
+.parent-acc svg{
+    width: auto;
+    height: 1.5rem;
+    float: right;
+    margin-left: auto;
+}
+
+.childacc{
+    display: none;
+    overflow: hidden;
+    max-height: 5.0625rem;
+}
+
+.childacc p{
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .faq-btn{
@@ -631,7 +664,7 @@ ul > li{
     flex-flow: column;
     display: flex;
     width: 48%;
-    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+    box-shadow: 0 1.9375rem 3.75rem rgba(231,51,43,.2);
     background-color: #1b1a20;
 }
 
@@ -798,7 +831,7 @@ ul > li{
     display: flex;
     margin: 0 auto 4rem;
     color: #e7332b;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(0, 0, 0, 0.14) 0rem 0.125rem 0.125rem 0rem, rgba(0, 0, 0, 0.12) 0rem 0.0625rem 0.3125rem 0rem;
 }
 
 .last-get1{
@@ -866,7 +899,7 @@ ul > li{
 .footer-top{
     display: flex;
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
 }
 
 .socials{
