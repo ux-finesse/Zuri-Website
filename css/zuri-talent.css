@@ -193,14 +193,14 @@ ul > li:hover{
 .middle-content-1{
     width: 85%;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     margin: 0 auto;
     align-items: center;
 }
 
 .flags{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
 }
 
 .country{
@@ -256,14 +256,14 @@ ul > li:hover{
 
 .talents{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     gap: 2rem;
     margin-bottom: 3rem;
 }
 
 .workplc{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     gap: 1.5rem;
 }
 
@@ -323,7 +323,7 @@ ul > li:hover{
 .cards1{
     margin-bottom: 2rem;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     color: #787878;
     gap: 1rem;
 }
@@ -331,20 +331,20 @@ ul > li:hover{
 .cards2{
     margin: 0 auto 4rem;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     color: #787878;
     justify-content: center;
+    width: 100%;
     gap: 1rem;
 }
 
 .card{
-    width: 30rem;
-    height: 17.1875rem;
     background-color: #fff;
     display: flex;
     border-bottom-right-radius: 0.92rem;
     flex-flow: column;
-    padding: 3rem 1rem;;
+    padding: 3.55rem 1rem;
+    width: 32%;
     align-items: center;
 }
 
@@ -376,9 +376,8 @@ ul > li:hover{
 }
 
 .position-rope{
-    position: relative;
+    position: absolute;
     left: 0;
-    top: -29.7rem;
 }
 
 .footer-container{
@@ -388,6 +387,7 @@ ul > li:hover{
 .footer-top{
     display: flex;
     width: 90%;
+    flex-flow: row wrap;
     margin: 0 auto;
     padding: 5rem 0 2rem;
 }
@@ -417,4 +417,146 @@ ul > li:hover{
 .right-text{
     float: right;
     margin-left: auto;
+}
+
+@media all and (max-width: 480px) {
+
+    .header-container{
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .nav-links > ul{
+        display: none;
+    }
+
+    .nav-links button{
+        padding: 0.1rem 2rem;
+    }
+
+    .top{
+        flex-flow: column;
+        margin: 6.5rem auto;
+        gap: 3.5rem;
+        width: 90%;
+    }
+
+    .left-top{
+        align-items: center;
+    }
+
+    .left-top h1{
+        text-align: center;
+        line-height: 3.5rem;
+    }
+    
+
+    .left-top p{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .h1-line img{
+        float: right;
+        position: absolute;
+        left: 14.5rem;
+        top: 11.5rem;
+        width: 18%;
+    }
+
+    .left-top-btn{
+        justify-content: center;
+    }
+
+    .right-top img{
+        height: 29rem;
+    }
+
+    .img-line{
+        display: none;
+    }
+
+    .mid-left{
+        width: 100%;
+    }
+
+    .mid-left h1{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .mid-left h5{
+        font-size: 1.1875rem;
+    }
+    
+
+    .middle-content-1{
+        gap: 5.5rem;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .mid-right img{
+        height: 27rem;
+    }
+
+    .mid2-line{
+        display: none;
+    }
+
+    .mid2-cont h1{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .mid2-cont-container{
+        width: 90%;
+    }
+
+    .talents{
+        justify-content: center;
+    }
+
+    .skill{
+        padding: 0.1rem 2.5rem;
+        font-size: 0.94rem;
+    }
+
+    .workplc{
+        justify-content: center;
+    }
+
+    .work{
+        font-size: 0.94rem;
+    }
+
+    .gitmic {
+        padding: 0.1rem 4.35rem;
+    }
+
+    .mid3-btn{
+        width: 100%;
+    }
+
+    .footer-top{
+        flex-flow: column wrap;
+        align-items: center;     
+    }
+
+    .socials{
+        margin-left: 0;
+    }
+
+    .footer-bottom{
+        gap: 1rem;
+        flex-flow: column-reverse ;
+        text-align: center;
+    }
+
+    .right-text{
+        padding: 0 0 2.5rem 0;
+        border-bottom: 0.0625rem solid #808080;
+        margin-left: 0;
+    }
 }
