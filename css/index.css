@@ -311,6 +311,7 @@ color: #fff;
 }
 
 @media all and (max-width: 1200px){
+
     
     .hero-contents{
         width: 100%;
@@ -358,6 +359,8 @@ color: #fff;
         flex-flow: column;
     }
 }
+
+
 @media all and (max-width: 1024px){
     
     .hero-contents{
