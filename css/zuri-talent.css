@@ -125,6 +125,7 @@ ul > li:hover{
 
 .left-top-btn{
     display: flex;
+    flex-flow: row wrap;
     gap: 1rem;
 }
 
@@ -372,6 +373,7 @@ ul > li:hover{
     justify-content: center;
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
     gap: 1rem;
 }
 
@@ -1186,7 +1188,8 @@ ul > li:hover{
     }
 
     .right-top img{
-        height: 29rem;
+        height: auto;
+        width: 100%;
     }
 
     .img-line{
@@ -1206,13 +1209,19 @@ ul > li:hover{
         font-size: 1.1875rem;
     }
     
+    .middle-content-2-wrapper{
+        padding: 0 1rem;
+    }
+
+    .talents{
+        gap: 1rem;
+    }
 
     .middle-content-1{
         gap: 5.5rem;
         justify-content: center;
         flex-flow: column;
         width: 100%;
-        padding: 0 1rem;
     }
 
     .mid-right img{
@@ -1224,6 +1233,10 @@ ul > li:hover{
         display: none;
     }
 
+    .mid2-cont{
+        width: 100%;
+    }
+
     .mid2-cont h1{
         font-size: 1.75rem;
         line-height: 2rem;
@@ -1231,21 +1244,24 @@ ul > li:hover{
 
     .mid2-cont-container{
         width: 100%;
-        padding: 0 1rem;
     }
 
     .mid3-content{
         width: 100%;
-        padding: 0 1rem;
     }
 
     .skill{
-        padding: 0.1rem 2.5rem;
+        padding: 0.7rem;
         font-size: 1rem;
+    }
+
+    .workplc{
+        gap: 1rem;
     }
 
     .work{
         font-size: 1rem;
+        padding: 0.7rem 0.5rem;
     }
 
     .cards2 {
