@@ -2187,6 +2187,10 @@ ul > li{
         height: 6rem;
     }
 
+    .cards {
+        margin: 0rem 0rem 4rem;
+    }
+
     .last-get-imgs4 {
         right: -3.5rem;
         bottom: -5rem;
@@ -2279,6 +2283,10 @@ ul > li{
 
     .thumbs img{
         height: 2.9rem;
+    }
+
+    .cards {
+        margin: 0rem 0rem 4rem;
     }
 
     .left-img img{
@@ -2716,6 +2724,10 @@ ul > li{
     
     .position-left img, .right-img img, .h-star img{
         display: none;
+    }
+
+    .cards {
+        margin: 0rem 0rem 4rem;
     }
 
     .h1-sect h1{
