@@ -948,6 +948,437 @@ ul > li{
     margin-left: auto;
 }
 
+
+
+@media all and (max-width: 1024px) {
+
+    .nav-links > ul{
+        display: none;
+    }
+
+    header{
+        padding: 0 2rem;
+        z-index: 2;
+    }
+
+    .header-container{
+        width: 100%;
+        margin: 1.5rem auto 0.85rem;
+    }
+
+    .hero{
+        padding: 0 1rem;
+    }
+    .hero{
+        padding: 2rem;
+    }
+
+    .hero-cont{
+        flex-flow: column;
+        padding: 1.5rem 0 3rem;
+        width: 100%;
+    }
+
+    .header-logo img{
+        width: 80%;
+    }
+
+    .nav-links button{
+        padding: 0.3rem 1.25rem;
+    }
+
+    .thumbs{
+        position: absolute;
+        right: 8.2rem;
+    }
+
+    .thumbs img{
+        height: 2.9rem;
+    }
+
+    .left-img img{
+        left: -1rem;
+        height: auto;
+        position: relative;
+        height: 37rem;
+    }
+    
+    .right-img img{
+        display: none;
+    }
+
+    .position-left img{
+        height: 3.5rem;
+        top: 23rem;
+        left: -39rem;
+    }
+
+    .h-star img{
+        display: block;
+    }
+
+    .h1-sect h1{
+        font-size: 3.0625rem;
+        line-height: 3rem;
+        width: 90%;
+    }
+    
+    .h1-line img{
+        height: 0.85rem;
+        margin-bottom: 2rem;
+        left: -6.4rem;
+    }
+
+    .p-bottom{
+        width: 57%;
+        font-size: 1.125rem;
+    }
+
+    .hero-btline{
+        margin: 0;
+        left: 0;
+    }
+
+    .hero-btline img{
+        height: 8rem;
+        position: relative;
+        right: -36.5rem;
+
+    }
+
+    .intro{
+        align-items: center;
+        width: 90%;
+    }
+
+    .intro h5{
+        width: 93%;
+        text-align: left;
+        margin-top: 0rem;
+        line-height: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .pecs p{
+        font-size: 0.8125rem;
+    }
+
+    .intro p{
+        text-align: right;
+        width: 91%;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    #arrow-img img {
+        width: auto;
+        left: 12rem;
+        height: 4rem;
+    }
+
+    .card-sect{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0 2rem;
+
+    }
+
+    .card-caption p{
+        font-size: 1.125rem;
+    }
+
+    .h-star h1{
+        width: 50%;
+        font-size: 1.875rem;
+        line-height: 2rem;
+    }
+
+    .card1{
+        width: 48%;
+        padding: 3rem 2rem;
+    }
+
+    .card2, .card3, .card4, .card5, .card6{
+        width: 48%;
+        padding: 3rem 2rem;
+    }
+
+    .curve-img img{
+        top: -3.1rem;
+        right: -2.1rem;
+    }
+
+    .after-card-cont{
+        width: 100%;
+        flex-flow: column;
+        padding: 0 3rem;
+    }
+
+    .pecs{
+        width: 20%;
+    }
+
+    .left-capt{
+        width: 100%;
+    }
+
+    .left-capt-arrow img {
+        width: 17%;
+        position: relative;
+        height: auto;
+        right: -37rem;
+    }
+
+    .right-image{
+        width: 100%;
+    }
+
+    .right-image img {
+        width: 100%;
+    }
+
+    .dot-img img {
+        width: 10%;
+        position: absolute;
+        height: auto;
+        left: 2rem;
+        top: 335rem;
+    }
+
+    .after-cards{
+        padding: 3rem 0 8rem;
+    }
+
+    .left-capt{
+        width: 100%;
+    }
+
+    .cards{
+        margin: 0rem 1rem 4rem;
+    }
+
+    .left-capt h1{
+        width: 100%;
+        font-size: 1.875rem;
+        line-height: 2rem;
+    }
+
+    .second-p{
+        width: 80%;
+        font-size: 1.125rem;
+    }
+
+    .pecs-cont{
+        margin-bottom: 3rem;
+        flex-flow: row wrap;
+    }
+
+    .scope-cont{
+        padding: 0 3rem;
+        margin: 6rem 0 3rem;
+        width: 100%;
+    }
+
+    .scope-capt{
+        width: 48%;
+    }
+
+    .scope-cont h1{
+        width: 100%;
+        font-size: 1.875rem;
+        line-height: 2rem;
+    }
+
+    .scope-img img {
+        position: absolute;
+        right: 25rem;
+    }
+
+    .scopes{
+        width: 48%;
+    }
+
+    .faq-sect{
+        padding: 0 1.5rem 4rem;
+        width: 100%;
+    }
+      
+    .capt-line img{
+        right: -10rem;
+        top: 3rem;
+        height: 4.8rem;
+    }
+
+    .faq-sect p{
+        font-size: 1.125rem;
+    }
+
+    .faq-sect h1{
+        width: 100%;
+        font-size: 1.875rem;
+        line-height: 2rem;
+    }
+
+    .accordions{
+        width: 80%;
+        margin: 6rem auto 6rem;
+    }
+
+    .faq-btn{
+        flex-flow: row;
+    }
+
+    .structure-cont{
+        width: 100%;
+        padding: 0 3rem;
+        margin-bottom: 0;
+    }
+
+    .capt-star img{
+        width: 60%;
+        top: 3.5rem;
+        left: 2.5rem;
+    }
+
+    .capt-p-1{
+        font-size: 1.125rem;
+    }
+
+    .structure-text h1{
+        width: 100%;
+        font-size: 1.875rem;
+        line-height: 2rem;
+    }
+
+    .struc-card{
+        width: 47%;
+        z-index: 1;
+    }
+
+    .struc-svg-time img{
+        height: 10.5rem;
+        right: 6rem;
+        top: 504.5rem;
+    }
+
+    /* .struc-svg img{
+        height: auto;
+        width: 39%;
+        right: -9.5rem;
+        top: 0rem;
+    } */
+
+    .struc-svg img {
+        height: auto;
+        width: 9%;
+        right: 34.5rem;
+        top: 508rem;
+    }
+
+    .struc-lst3-capt{
+        width: 100%;
+    }
+
+    .circles{
+        height: 3.4375rem;
+        width: 50%;
+    }
+
+    .stru-circle{
+        display: block;
+        top: 3rem;
+    }
+
+    .stru-lst3-circle {
+        right: 0;
+    }
+
+    .struc-svg-time{
+        margin: 0;
+    }
+
+    .stru-circle img {
+        height: 4rem;
+        width: auto;
+    }
+
+    .stru-lst3-circle img{
+        width: 52%;
+        position: relative;
+        height: auto;
+        left: 39.5rem;
+        overflow: hidden;
+    }
+
+    .structure-cards {
+        margin-bottom: 6rem;
+    }
+
+    .last-get{
+        padding: 0 3rem;
+        overflow: hidden;
+    }
+
+    .last-get-container-rap{
+        width: 100%;
+    }
+
+    .last-get h1{
+        width: 81%;
+        font-size: 2.875rem;
+        line-height: 3.5rem;
+    }
+
+    .last-get-imgs1 {
+        position: relative;
+        right: -6rem;
+        top: 0rem;
+    }
+
+    .last-get-imgs2{
+        left: -1rem;
+        bottom: -6rem;
+    }
+
+    .last-get-imgs2 img{
+        height: 5rem;
+    }
+
+    .last-get-imgs1 img {
+        width: auto;
+        height: 7rem;
+    }
+
+    .last-get-imgs3 {
+        right: -1rem;
+        top: -4rem;
+      }
+
+    .last-get-imgs3 img {
+        width: auto;
+        height: 6rem;
+    }
+
+    .last-get-imgs4 {
+        right: -3.5rem;
+        bottom: -6rem;
+    }
+
+    .last-get-imgs4 img {
+        width: auto;
+        height: 6rem;
+    }
+
+    .last-get-container{
+        padding: 4rem 1rem 2rem;
+    }
+
+    .footer-container{
+        padding: 0 3rem;
+    }
+}
+
 @media all and (max-width: 991px) {
 
     .nav-links > ul{
