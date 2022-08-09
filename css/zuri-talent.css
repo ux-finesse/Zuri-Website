@@ -1364,7 +1364,7 @@ ul > li:hover{
     .h1-line img{
         float: right;
         position: absolute;
-        left: 14.5rem;
+        left: 14.6rem;
         top: 11.5rem;
         width: 26%;
     }
@@ -1494,5 +1494,5 @@ ul > li:hover{
         position: absolute;
         left: 0;
         top: 214rem;
-      }
+    }
 }
