@@ -8,6 +8,7 @@
 
 body{
     background-color: #fffdf5;
+    overflow-x: hidden;
 }
 
 header{
@@ -689,6 +690,7 @@ ul > li{
     width: 48%;
     box-shadow: 0 1.9375rem 3.75rem rgba(231,51,43,.2);
     background-color: #1b1a20;
+    position: relative;
 }
 
 .struc-card p{
@@ -743,38 +745,30 @@ ul > li{
 }
 
 .struc-svg{
+    position: absolute;
     float: right;
+    bottom: 3rem;
+    right: 2rem;
     margin-left: auto;
 }
 
 .struc-svg img{
-    /* width: auto;
-    height: 12rem;
-    position: absolute;
-    right: -1.5rem; */
     width: auto;
-    height: 12rem;
-    position: absolute;
-    right: 56.5rem;
-    top: 406rem;
+    height: 9rem;
+    
 }
 
 .struc-svg-time{
     float: right;
+    position: absolute;
+    bottom: 6rem;
+    right: 2rem;
     margin-left: auto;
 }
 
 .struc-svg-time img{
-    /* width: auto;
-    height: 17rem;
-    position: relative;
-    right: -1.5rem;
-    top: -2.5rem; */
     width: auto;
-    height: 16rem;
-    position: absolute;
-    right: 10.5rem;
-    top: 398.5rem;
+    height: 13rem;
 }
 
 .stru-lst3i{
@@ -1259,6 +1253,7 @@ ul > li{
 
     .struc-card{
         width: 47%;
+        position: relative;
         z-index: 1;
     }
 
@@ -1267,25 +1262,27 @@ ul > li{
         top: 372rem;
     }
 
-
-    .struc-svg-time img{
-        height: 10.5rem;
-        right: 6rem;
-        top: 395.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
 
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
-
     .struc-svg img {
-        height: auto;
-        width: 9%;
-        right: 49.5rem;
-        top: 384rem;
+        width: auto;
+        height: 9rem;
+        
+    }
+
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 8rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 12rem;
     }
 
     .struc-lst3-capt{
@@ -1702,6 +1699,7 @@ ul > li{
 
     .struc-card{
         width: 47%;
+        position: relative;
         z-index: 1;
     }
 
@@ -1710,25 +1708,27 @@ ul > li{
         top: 372rem;
     }
 
-
-    .struc-svg-time img{
-        height: 10.5rem;
-        right: 6rem;
-        top: 395.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
 
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
-
     .struc-svg img {
-        height: auto;
-        width: 9%;
-        right: 42.5rem;
-        top: 398rem;
+        width: auto;
+        height: 9rem;
+        
+    }
+
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 8rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 12rem;
     }
 
     .struc-lst3-capt{
@@ -2148,27 +2148,31 @@ ul > li{
 
     .struc-card{
         width: 47%;
+        position: relative;
         z-index: 1;
     }
 
-    .struc-svg-time img{
-        height: 10.5rem;
-        right: 6rem;
-        top: 504.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
 
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
-
     .struc-svg img {
-        height: auto;
-        width: 9%;
-        right: 34.5rem;
-        top: 508rem;
+        width: auto;
+        height: 7rem;
+        
+    }
+
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 8rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 9rem;
     }
 
     .struc-lst3-capt{
@@ -2182,11 +2186,14 @@ ul > li{
 
     .stru-circle{
         display: block;
+        position: relative;
         top: 3rem;
+        right: 13rem;
     }
 
     .stru-lst3-circle {
-        right: 0;
+        position: relative;
+        left: 2rem;
     }
 
     .struc-svg-time{
@@ -2194,16 +2201,13 @@ ul > li{
     }
 
     .stru-circle img {
-        height: 4rem;
+        height: 5rem;
         width: auto;
     }
 
     .stru-lst3-circle img{
         width: 52%;
-        position: relative;
         height: auto;
-        left: 39.5rem;
-        overflow: hidden;
     }
 
     .structure-cards {
@@ -2578,27 +2582,31 @@ ul > li{
 
     .struc-card{
         width: 47%;
+        position: relative;
         z-index: 1;
     }
 
-    .struc-svg-time img{
-        height: 10.5rem;
-        right: 6rem;
-        top: 504.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
 
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
-
     .struc-svg img {
-        height: auto;
-        width: 9%;
-        right: 34.5rem;
-        top: 508rem;
+        width: auto;
+        height: 7rem;
+        
+    }
+
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 8rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 9rem;
     }
 
     .struc-lst3-capt{
@@ -2612,11 +2620,14 @@ ul > li{
 
     .stru-circle{
         display: block;
+        position: relative;
         top: 3rem;
+        right: 13rem;
     }
 
     .stru-lst3-circle {
-        right: 0;
+        position: relative;
+        left: 1rem;
     }
 
     .struc-svg-time{
@@ -2624,16 +2635,13 @@ ul > li{
     }
 
     .stru-circle img {
-        height: 4rem;
+        height: 5rem;
         width: auto;
     }
 
     .stru-lst3-circle img{
         width: 52%;
-        position: relative;
         height: auto;
-        left: 39.5rem;
-        overflow: hidden;
     }
 
     .structure-cards {
@@ -2987,29 +2995,33 @@ ul > li{
 
     .struc-card{
         width: 100%;
+        position: relative;
         z-index: 1;
     }
 
-    .struc-svg-time img{
-        height: 13.5rem;
-        right: 3rem;
-        top: 645.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
-
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
 
     .struc-svg img {
-        height: auto;
-        width: 22%;
-        right: 2.5rem;
-        top: 599rem;
+        width: auto;
+        height: 11rem;
+        
     }
 
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 3rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 12rem;
+    }
+    
     .struc-lst3-capt{
         width: 100%;
     }
@@ -3035,7 +3047,7 @@ ul > li{
         width: 78%;
         position: relative;
         height: auto;
-        left: 22.5rem;
+        left: 14rem;
         overflow: hidden;
     }
 
@@ -3422,29 +3434,33 @@ ul > li{
 
     .struc-card{
         width: 100%;
+        position: relative;
         z-index: 1;
     }
 
-    .struc-svg-time img{
-        height: 9.5rem;
-        right: 3rem;
-        top: 657.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
-
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
 
     .struc-svg img {
-        height: auto;
-        width: 22%;
-        right: 2.5rem;
-        top: 608rem;
+        width: auto;
+        height: 7rem;
+        
     }
 
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 3rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 8rem;
+    }
+   
     .struc-lst3-capt{
         width: 100%;
     }
@@ -3470,7 +3486,7 @@ ul > li{
         width: 78%;
         position: relative;
         height: auto;
-        left: 18rem;
+        left: 11rem;
         overflow: hidden;
     }
 
@@ -3876,27 +3892,31 @@ ul > li{
 
     .struc-card{
         width: 100%;
+        position: relative;
         z-index: 1;
     }
 
-    .struc-svg-time img{
-        height: 8rem;
-        right: 3rem;
-        top: 695.5rem;
+    .struc-svg{
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem;
     }
 
-    /* .struc-svg img{
-        height: auto;
-        width: 39%;
-        right: -9.5rem;
-        top: 0rem;
-    } */
-
     .struc-svg img {
-        height: auto;
-        width: 22%;
-        right: 2.5rem;
-        top: 643rem;
+        width: auto;
+        height: 7rem;
+        
+    }
+
+    .struc-svg-time{
+        position: absolute;
+        right: 2rem;
+        bottom: 3rem;
+    }
+
+    .struc-svg-time img{
+        width: auto;
+        height: 8rem;
     }
 
     .struc-lst3-capt{
@@ -3924,8 +3944,7 @@ ul > li{
         width: 78%;
         position: relative;
         height: auto;
-        left: 7rem;
-        overflow: hidden;
+        left: 9rem;
     }
 
     .last-get{
